@@ -2,7 +2,6 @@ import conversions
 import unittest
 
 
-
 class TestConverterBadInput(unittest.TestCase):
     def test_convertCelsiusToKelvinvalueisfloat(self):
         """convertCelsiusToKelvin should fails if the input is not float value."""
