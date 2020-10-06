@@ -41,4 +41,5 @@ class NotFloat(TypeError):
     pass
 
 
-convertCelsiusToKelvin(300.0)
+if __name__ == "__main__":
+    convertCelsiusToKelvin(300.0)
